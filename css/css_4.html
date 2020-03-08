@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head><title>가상선택자</title></head>
+    <body><h3>Web Programming</h3>
+     <style>
+      h1, li{
+          color:brown;
+      }
+      div > div>strong{
+          background-color:greenyellow;
+      }
+      ul strong{
+          color:dodgerblue;
+      }
+      .warning{
+          color:red;
+      }
+      body.main{
+          background:aliceblue;
+      }
+      #list{
+          background:mistyrose;
+      }
+      #list span{
+          color:forestgreen;
+      }
+      h3:first-letter{
+          color:red;
+      }
+      li:hover{
+          background:yellowgreen;
+      }
+     </style>
+<div>
+   <div>2학기 <strong>학습니용</strong></div>
+   <ul id="list">
+       <li><span>HTML5</span></li>
+       <li><strong>CSS3</strong></li>
+       <li><span>Javascrpt</span></li>
+   </ul>
+   <div class="warning">
+       60점 이하는 F
+   </div>
+</div>

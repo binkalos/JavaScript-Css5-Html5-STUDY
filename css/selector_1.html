@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>selector 적용</title>
+        <style>
+            * {
+                margin:0;
+                color:chocolate
+            }
+        #a1 {
+            border: 1px solid red;
+        }
+        #a2 {
+            border: 1px solid green;
+        }
+        #a3 {
+            border:1px solid blue;
+        }
+        h3, li{
+            color:brown;
+        }
+        .warning {
+            color:red;
+        }
+        body.main {
+            background-color: aliceblue;
+        }
+        </style>
+    </head>
+    <body class="main">
+        <h3>Web programming</h3>
+        <hr>
+        <div id="a1">
+            <div id="a2">1학기<strong>학습내용</strong>
+            </div>
+            <ul>
+                <li>HTML5</li>
+                <li><strong>Java</strong></li>
+                <li>C++</li>
+                <li><strong>Spring</strong></li>
+                <li>JSP</li>
+            </ul>
+            <div id="a3" class="warning">60점 이하는 F</div>
+        </div>
+    </body>
+</html>

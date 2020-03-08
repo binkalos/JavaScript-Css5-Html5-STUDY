@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        float 속성
+    </title>
+
+   <style>
+     .container{
+         width:1200px;
+         height:715px;
+         border:1px solid blue;
+         margin:0 auto;
+     }
+     header{
+         height:150px;
+         border:3px solid salmon;
+         text-align:center;
+         line-height:150px;
+     }
+     .inner section{
+         width:400px;
+         height:400px;
+         border:5px solid blue;
+         float:left;
+         box-sizing:border-box;
+           }
+      footer{
+          height:150px;
+          border:10px solid yellowgreen;
+          clear:both;
+      }  
+       
+   </style>
+</head>
+    <body>
+        <h3>시멘틱 태그 작성</h3>
+        <div class="container">
+            <header>Header</header>
+            <div class="inner">
+                <section>section1</section>
+                <section>section2</section>
+                <section>section3</section>
+            </div>
+            <footer>
+                copyright by A.
+            </footer>
+            
+        </div>
+    </body>
+</html>
